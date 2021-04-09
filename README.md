@@ -5,14 +5,14 @@
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/16159-fairyfloss-theme.svg)](https://img.shields.io/jetbrains/plugin/d/16159-fairyfloss-theme)
 
 <!-- Plugin description -->
-This theme is dimmer and easier on the eyes than the default Intellij themes as well as other light themes that I have come across. The inspiration for this theme codes from the Quiet Light theme bundled in Visual studio code, you might notice that the background colours are the same.
+This theme is based on the existing [Fairyfloss](https://sailorhg.github.io/fairyfloss/) theme.
 <!-- Plugin description end -->
 
 ## Installation
 
 - Using IDE built-in plugin system:
   
-  <kbd>Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "Tranquial Light theme"</kbd> >
+  <kbd>Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "Fairyfloss theme"</kbd> >
   <kbd>Install Plugin</kbd>
   
 - Manually:
