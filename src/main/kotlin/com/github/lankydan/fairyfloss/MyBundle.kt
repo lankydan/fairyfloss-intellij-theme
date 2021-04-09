@@ -16,9 +16,6 @@ object MyBundle : AbstractBundle(BUNDLE) {
     @Suppress("SpreadOperator")
     @JvmStatic
     fun messagePointer(@PropertyKey(resourceBundle = BUNDLE) key: String, vararg params: Any) = run {
-
-
-
         message(key, *params)
     }
 }
