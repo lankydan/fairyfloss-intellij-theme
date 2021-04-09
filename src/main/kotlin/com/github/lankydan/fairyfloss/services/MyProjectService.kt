@@ -1,6 +1,6 @@
-package com.github.lankydan.tranquil.services
+package com.github.lankydan.fairyfloss.services
 
-import com.github.lankydan.tranquil.MyBundle
+import com.github.lankydan.fairyfloss.MyBundle
 import com.intellij.openapi.project.Project
 
 class MyProjectService(project: Project) {

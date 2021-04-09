@@ -1,68 +1,71 @@
 {
-  "name": "Tranquil Light",
-  "dark": false,
+  "name": "Fairyfloss",
+  "dark": true,
   "author": "Dan Newton",
-  "editorScheme": "/themes/tranquil-light.xml",
+  "editorScheme": "/themes/fairyfloss.xml",
   "colors": {
-    "backgroundLight": "#f3f3f3",
-    "backgroundDark": "#eaeaea",
-    "fadedPink": "#e9e8f3",
-    "fadedPinkDark": "#e2e1f0",
+    "backgroundLight": "#5A5475",
+    "backgroundDark": "#514C66",
+    "backgroundDarker": "#464258",
+    "fadedPink": "#5A5475",
+    "fadedPinkDark": "#716799",
     "grey": "#d6d4d4",
-    "greyDark": "#616161",
+    "greyDark": "#bab6b6",
     "grey70%": "#55555570",
-    "textBlack": "#383738",
-    "textGrey": "#3e3e4e",
-    "primaryPurple": "#790e8b",
-    "primaryPurpleLight": "#ab47bc",
-    "fadedYellow": "#ede8ca",
+    "textDark": "#F8F8F2",
+    "textLight": "#F8F8F2",
+    "white": "#F8F8F2",
+    "fadedYellow": "#E6C00010",
     "yellow": "#DAAA01",
     "lilac": "#BAA8FF",
-    "fadedRed": "#f07178"
+    "fadedRed": "#f5676f",
+    "pink": "#FFB8D1",
+    "pinkDark": "#ad5877",
+    "selectionBackground": "#7c6799"
   },
   "ui": {
     "*": {
       "acceleratorSelectionForeground": "greyDark",
-      "background": "backgroundLight",
-      "borderColor": "backgroundLight",
+      "background": "backgroundDarker",
+      "borderColor": "backgroundDarker",
       "disabledBackground": "fadedYellow",
       "disabledForeground": "greyDark",
       "disabledText": "greyDark",
       "focusColor": "fadedPink",
-      "focusedBorderColor": "primaryPurple",
-      "foreground": "textGrey",
+      "focusedBorderColor": "white",
+      "foreground": "textLight",
       "inactiveBackground": "fadedYellow",
       "inactiveForeground": "greyDark",
       "infoForeground": "greyDark",
-      "selectionBackground": "fadedPink",
-      "selectionBackgroundInactive": "backgroundDark",
-      "selectionForeground": "primaryPurple",
-      "selectionInactiveBackground": "backgroundDark",
-      "separatorColor": "backgroundLight"
+      "selectionBackground": "#7c6799",
+      "selectionBackgroundInactive": "backgroundLight",
+      "selectionForeground": "white",
+      "selectionInactiveBackground": "backgroundLight",
+      "separatorColor": "backgroundDark"
     },
     "activeCaption": "backgroundLight",
     "ActionButton": {
       "hoverBackground": "fadedPink",
-      "hoverBorderColor": "primaryPurpleLight",
+      "hoverBorderColor": "whiteLight",
       "hoverSeparatorColor": "backgroundDark",
-      "focusedBorderColor": "primaryPurpleLight",
+      "focusedBorderColor": "whiteLight",
       "pressedBackground": "fadedPink",
-      "pressedBorderColor": "primaryPurpleLight"
+      "pressedBorderColor": "whiteLight"
     },
     "Autocomplete": {
-      "selectionBackground": "fadedPink"
+      "selectionBackground": "#7c6799"
     },
-    "Borders.ContrastBorderColor": "backgroundLight",
-    "Borders.color": "backgroundLight",
+    "Borders.ContrastBorderColor": "backgroundDark",
+    "Borders.color": "backgroundDark",
     "Button": {
       "arc": 0,
-      "background": "backgroundLight",
+      "background": "backgroundDark",
       "default": {
         "endBackground": "fadedPink",
         "endBorderColor": "fadedPink",
-        "foreground": "primaryPurple",
-        "focusColor": "fadedPink",
-        "focusedBorderColor": "primaryPurple",
+        "foreground": "white",
+        "focusColor": "lilac",
+        "focusedBorderColor": "white",
         "shadowColor": "fadedPink",
         "startBackground": "fadedPink",
         "startBorderColor": "fadedPink"
@@ -72,12 +75,12 @@
       "endBackground": "backgroundDark",
       "endBorderColor": "backgroundDark",
       "focus": "fadedPink",
-      "focusedBorderColor": "primaryPurple",
-      "foreground": "primaryPurple",
-      "highlight": "primaryPurple",
+      "focusedBorderColor": "white",
+      "foreground": "white",
+      "highlight": "white",
       "mt.background": "backgroundDark",
       "mt.foreground": "greyDark",
-      "mt.selectedForeground": "primaryPurple",
+      "mt.selectedForeground": "white",
       "mt.selection.color1": "fadedPink",
       "mt.selection.color2": "fadedPink",
       "startBackground": "backgroundDark",
@@ -91,10 +94,9 @@
     },
     "Content.background": "fadedPink",
     "CheckBox": {
-      "background": "backgroundLight",
       "disabledText": "greyDark",
-      "foreground": "textGrey",
-      "select": "primaryPurple"
+      "foreground": "textLight",
+      "select": "white"
     },
     "CheckBoxMenuItem": {
       "acceleratorForeground": "greyDark",
@@ -102,74 +104,74 @@
       "background": "backgroundLight",
       "disabledBackground": "backgroundLight",
       "disabledForeground": "greyDark",
-      "foreground": "textGrey",
-      "selectionBackground": "fadedPink",
-      "selectionForeground": "primaryPurple"
+      "foreground": "textLight",
+      "selectionBackground": "#7c6799",
+      "selectionForeground": "white"
     },
     "ColorChooser": {
       "background": "backgroundLight",
-      "foreground": "textGrey",
-      "swatchesDefaultRecentColor": "textGrey"
+      "foreground": "textLight",
+      "swatchesDefaultRecentColor": "textLight"
     },
     "ComboBoxButton.background": "backgroundDark",
     "ComboBox": {
       "ArrowButton": {
         "background": "backgroundDark",
         "disabledIconColor": "greyDark",
-        "iconColor": "textGrey",
+        "iconColor": "textLight",
         "nonEditableBackground": "backgroundLight"
       },
       "background": "backgroundLight",
       "buttonBackground": "backgroundDark",
       "disabledForeground": "greyDark",
-      "foreground": "textGrey",
-      "modifiedItemForeground": "primaryPurple",
+      "foreground": "textLight",
+      "modifiedItemForeground": "white",
       "nonEditableBackground": "backgroundDark",
       "padding": "5,5,5,5",
-      "selectionBackground": "fadedPink",
-      "selectionForeground": "primaryPurple"
+      "selectionBackground": "#7c6799",
+      "selectionForeground": "white"
     },
     "ComboPopup.border": "grey",
     "CompletionPopup": {
       "background": "backgroundDark",
-      "foreground": "textGrey",
+      "foreground": "textLight",
       "infoForeground": "greyDark",
-      "matchForeground": "primaryPurple",
-      "matchSelectionForeground": "primaryPurple",
+      "matchForeground": "white",
+      "matchSelectionForeground": "white",
       "nonFocusedState": "false",
-      "selectedGrayedForeground": "primaryPurple",
-      "selectionGrayForeground": "primaryPurple",
+      "selectedGrayedForeground": "white",
+      "selectionGrayForeground": "white",
       "selectionInactiveInfoForeground": "greyDark",
       "selectionInactiveBackground": "fadedPinkDark",
       "selectionBackground": "fadedPinkDark",
-      "selectionForeground": "primaryPurple",
-      "selectionInfoForeground": "primaryPurple"
+      "selectionForeground": "white",
+      "selectionInfoForeground": "white"
     },
     "Component": {
       "arc": 4,
-      "borderColor": "backgroundLight",
+      "borderColor": "backgroundDarker",
       "disabledBorderColor": "backgroundDark",
-      "focusColor": "primaryPurple",
-      "focusedBorderColor": "primaryPurple",
-      "hoverIconColor": "primaryPurple",
+      "focusColor": "white",
+      "focusedBorderColor": "white",
+      "hoverIconColor": "white",
       "infoForeground": "greyDark",
-      "iconColor": "textGrey"
+      "iconColor": "textLight"
     },
     "control": "backgroundLight",
     "controlText": "greyDark",
     "Counter": {
-      "background": "primaryPurple",
-      "foreground": "#ffffff"
+      "background": "pinkDark",
+      "foreground": "white"
     },
     "Debugger": {
       "Variables": {
         "collectingDataForeground": "greyDark",
-        "changedValueForeground": "primaryPurple",
+        "changedValueForeground": "white",
         "errorMessageForeground": "fadedRed",
         "evaluatingExpressionForeground": "greyDark",
         "exceptionForeground": "yellow",
-        "modifyingValueForeground": "primaryPurple",
-        "valueForeground": "primaryPurple"
+        "modifyingValueForeground": "white",
+        "valueForeground": "white"
       }
     },
     "DebuggerTabs": {
@@ -180,16 +182,16 @@
       "borderColor": "backgroundLight"
     },
     "DefaultTabs": {
-      "background": "backgroundLight",
+      "background": "backgroundDarker",
       "borderColor": "backgroundLight",
-      "hoverBackground": "fadedPink",
+      "hoverBackground": "backgroundLight",
       "hoverColor": "backgroundLight",
-      "hoverMaskColor": "fadedPink",
+      "hoverMaskColor": "backgroundLight",
       "inactiveColoredFileBackground": "backgroundDark",
       "inactiveUnderlineColor": "greyDark",
       "inactiveMaskColor": "backgroundLight",
-      "underlineColor": "primaryPurple",
-      "underlinedTabBackground": "fadedPink"
+      "underlineColor": "backgroundLight",
+      "underlinedTabBackground": "backgroundLight"
     },
     "Desktop.background": "backgroundLight",
     "DialogWrapper.southPanelBackground": "backgroundLight",
@@ -197,51 +199,52 @@
     "DragAndDrop": {
       "areaBackground": "backgroundLight",
       "areaBorderColor": "backgroundLight",
-      "areaForeground": "textGrey"
+      "areaForeground": "textLight"
     },
     "Editor": {
       "background": "backgroundLight",
-      "foreground": "textGrey",
+      "foreground": "textLight",
       "shortcutForeground": "greyDark"
     },
     "EditorPane": {
-      "background": "backgroundLight",
-      "caretForeground": "primaryPurple",
-      "foreground": "textGrey",
-      "inactiveBackground": "backgroundLight",
+      "background": "backgroundDarker",
+      "caretForeground": "white",
+      "foreground": "textLight",
+      "inactiveBackground": "backgroundDarker",
       "inactiveForeground": "greyDark",
-      "selectionBackground": "fadedPink",
-      "selectionForeground": "primaryPurple"
+      "selectionBackground": "#7c6799",
+      "selectionForeground": "white"
     },
     "EditorTabs": {
-      "borderColor": "backgroundLight",
+      "borderColor": "backgroundDarker",
       "hoverColor": "fadedPink",
       "hoverMaskColor": "fadedPink",
       "inactiveMaskColor": "backgroundLight",
-      "inactiveColoredFileBackground": "backgroundLight2",
+      "inactiveColoredFileBackground": "backgroundDarker",
+      "background": "backgroundDarker",
       "inactiveUnderlineColor": "greyDark",
-      "selectedForeground": "textGrey",
+      "selectedForeground": "textLight",
       "selectedBackground": "fadedPink",
-      "underlineColor": "primaryPurple",
-      "underlinedTabBackground": "fadedPink"
+      "underlineColor": "lilac",
+      "underlinedTabBackground": "backgroundLight"
     },
     "EditorGroupsTabs": {
-      "background": "backgroundLight",
-      "borderColor": "backgroundLight",
+      "background": "backgroundDarker",
+      "borderColor": "backgroundDarker",
       "hoverBackground": "fadedPink",
       "hoverColor": "fadedPink",
-      "inactiveUnderlineColor": "primaryPurple",
-      "underlineColor": "primaryPurple",
+      "inactiveUnderlineColor": "white",
+      "underlineColor": "white",
       "underlinedTabBackground": "fadedPink",
-      "underlinedTabForeground": "textGrey"
+      "underlinedTabForeground": "textLight"
     },
     "FileColor": {
-      "Green": "#dbe5c9",
-      "Blue": "#D9EBF9",
+      "Green": "#43997d10",
+      "Blue": "#0079d610",
       "Yellow": "fadedYellow",
-      "Orange": "#e3ceba",
-      "Violet": "#e5d5e8",
-      "Rose": "#FAD5D0"
+      "Orange": "#de6b0010",
+      "Violet": "#bf02e010",
+      "Rose": "#f21c0010"
     },
     "FlameGraph": {
       "JVMBackground": "#89DDF7",
@@ -250,25 +253,25 @@
       "JVMFocusSearchNotMatchedBackground": "#AB7967",
       "nativeBackground": "yellow",
       "nativeFocusBackground": "#F78C6C",
-      "nativeSearchNotMatchedBackground": "#C792EA",
+      "nativeSearchNotMatchedBackground": "pink",
       "nativeFocusSearchNotMatchedBackground": "#BB80B3"
     },
     "Focus.color": "fadedPinkDark",
     "FormattedTextField": {
       "background": "backgroundLight",
-      "caretForeground": "primaryPurple",
-      "foreground": "textGrey",
+      "caretForeground": "white",
+      "foreground": "textLight",
       "inactiveBackground": "backgroundDark",
       "inactiveForeground": "greyDark",
-      "selectionForeground": "primaryPurple",
-      "selectionBackground": "fadedPink"
+      "selectionForeground": "white",
+      "selectionBackground": "#7c6799"
     },
     "Group": {
       "disabledSeparatorColor": "grey",
       "separatorColor": "grey"
     },
     "GutterTooltip": {
-      "infoForeground": "textGrey",
+      "infoForeground": "textLight",
       "lineSeparatorColor": "backgroundLight"
     },
     "HeaderColor": {
@@ -278,11 +281,11 @@
     "HelpTooltip": {
       "background": "backgroundLight",
       "borderColor": "backgroundLight",
-      "foreground": "textGrey",
+      "foreground": "textLight",
       "infoForeground": "greyDark",
       "shortcutForeground": "greyDark"
     },
-    "Hyperlink.linkColor": "primaryPurple",
+    "Hyperlink.linkColor": "white",
     "inactiveCaption": "backgroundDark",
     "inactiveCaptionBorder": "backgroundLight",
     "inactiveCaptionText": "greyDark",
@@ -294,7 +297,7 @@
       "borderColor": "backgroundLight"
     },
     "InternalFrame": {
-      "activeTitleForeground": "textGrey",
+      "activeTitleForeground": "textLight",
       "background": "backgroundLight",
       "inactiveTitleForeground": "greyDark"
     },
@@ -303,36 +306,36 @@
       "disabledForeground": "greyDark",
       "disabledShadow": "backgroundLight",
       "disabledText": "greyDark",
-      "foreground": "textGrey",
+      "foreground": "textLight",
       "infoForeground": "greyDark",
-      "selectedForeground": "primaryPurple"
+      "selectedForeground": "white"
     },
     "Link": {
-      "activeForeground": "primaryPurple",
-      "hoverForeground": "primaryPurple",
-      "pressedForeground": "primaryPurple",
+      "activeForeground": "white",
+      "hoverForeground": "white",
+      "pressedForeground": "white",
       "secondaryForeground": "greyDark",
-      "visitedForeground": "primaryPurple"
+      "visitedForeground": "white"
     },
-    "link.foreground": "primaryPurple",
+    "link.foreground": "white",
     "List": {
       "background": "backgroundDark",
-      "foreground": "textGrey",
+      "foreground": "textLight",
       "selectionBackground": "fadedPinkDark",
-      "selectionForeground": "primaryPurple",
-      "selectionInactiveForeground": "primaryPurple",
+      "selectionForeground": "white",
+      "selectionInactiveForeground": "white",
       "selectionInactiveBackground": "fadedPinkDark"
     },
     "material": {
       "background": "backgroundLight",
-      "branchColor": "textGrey",
+      "branchColor": "textLight",
       "contrast": "fadedPink",
-      "foreground": "textGrey",
+      "foreground": "textLight",
       "mergeCommits": "backgroundDark",
       "primaryColor": "greyDark",
-      "selectionForeground": "primaryPurple",
+      "selectionForeground": "white",
       "tab.backgroundColor": "backgroundLight",
-      "tab.borderColor": "primaryPurple",
+      "tab.borderColor": "white",
       "tagColor": "greyDark"
     },
     "MemoryIndicator": {
@@ -342,39 +345,39 @@
     },
     "Menu": {
       "acceleratorForeground": "greyDark",
-      "acceleratorSelectionForeground": "primaryPurple",
+      "acceleratorSelectionForeground": "white",
       "background": "backgroundLight",
       "borderColor": "backgroundLight",
       "disabledBackground": "backgroundDark",
       "disabledForeground": "greyDark",
-      "foreground": "textGrey",
-      "selectionBackground": "fadedPink",
-      "selectionForeground": "primaryPurple",
-      "separatorColor": "grey"
+      "foreground": "textLight",
+      "selectionBackground": "#7c6799",
+      "selectionForeground": "white",
+      "separatorColor": "backgroundLight"
     },
     "MenuBar": {
       "background": "backgroundLight",
       "borderColor": "backgroundLight",
       "disabledBackground": "backgroundLight",
       "disabledForeground": "greyDark",
-      "foreground": "textGrey",
+      "foreground": "textLight",
       "highlight": "backgroundLight",
-      "selectionBackground": "fadedPink",
-      "selectionForeground": "primaryPurple",
+      "selectionBackground": "#7c6799",
+      "selectionForeground": "white",
       "shadow": "backgroundLight"
     },
     "MenuItem": {
       "acceleratorForeground": "greyDark",
-      "acceleratorSelectionForeground": "primaryPurple",
+      "acceleratorSelectionForeground": "white",
       "background": "backgroundLight",
       "disabledBackground": "backgroundLight",
       "disabledForeground": "greyDark",
-      "foreground": "textGrey",
-      "selectionBackground": "fadedPink",
-      "selectionForeground": "primaryPurple"
+      "foreground": "textLight",
+      "selectionBackground": "#7c6799",
+      "selectionForeground": "white"
     },
     "NavBar": {
-      "arrowColor": "textGrey",
+      "arrowColor": "textLight",
       "borderColor": "backgroundLight"
     },
     "NewClass": {
@@ -385,81 +388,81 @@
         "background": "backgroundLight"
       }
     },
-    "NewPSD.warning": "primaryPurple",
+    "NewPSD.warning": "white",
     "Notification": {
       "background": "fadedPink",
       "borderColor": "backgroundLight",
       "errorBackground": "fadedPink",
-      "errorBorderColor": "fadedPink",
-      "foreground": "textGrey",
+      "errorBorderColor": "fadedRed",
+      "foreground": "textLight",
       "MoreButton": {
         "background": "backgroundDark",
-        "foreground": "textGrey",
+        "foreground": "textLight",
         "innerBorderColor": "backgroundDark"
       },
       "ToolWindow": {
         "errorBackground": "fadedPink",
-        "errorBorderColor": "fadedPink",
+        "errorBorderColor": "fadedRed",
         "informativeBackground": "fadedPink",
         "informativeBorderColor": "fadedPink",
         "warningBackground": "fadedPink",
         "warningBorderColor": "fadedPink"
       }
     },
-    "OnePixelDivider.background": "grey",
     "OptionPane": {
       "background": "backgroundLight",
-      "foreground": "textGrey",
-      "messageForeground": "textGrey"
+      "foreground": "textLight",
+      "messageForeground": "textLight"
     },
     "Outline": {
       "color": "backgroundDark",
-      "focusedColor": "primaryPurple",
+      "focusedColor": "white",
       "disabledColor": "greyDark"
     },
     "Panel": {
-      "background": "backgroundLight",
-      "foreground": "textGrey"
+      "background": "backgroundDarker",
+      "foreground": "textLight"
     },
     "ParameterInfo": {
       "background": "backgroundDark",
       "borderColor": "fadedPink",
       "currentOverloadBackground": "fadedPink",
-      "currentParameterForeground": "primaryPurple",
+      "currentParameterForeground": "white",
       "disabledForeground": "greyDark",
-      "foreground": "textGrey",
+      "foreground": "textLight",
       "infoForeground": "greyDark",
       "lineSeparatorColor": "fadedPink"
     },
     "PasswordField": {
       "background": "backgroundLight",
-      "capsLockIconColor": "primaryPurple",
-      "caretForeground": "primaryPurple",
-      "foreground": "textGrey",
+      "capsLockIconColor": "white",
+      "caretForeground": "white",
+      "foreground": "textLight",
       "inactiveForeground": "greyDark",
-      "selectionBackground": "fadedPink",
-      "selectionForeground": "primaryPurple"
+      "selectionBackground": "#7c6799",
+      "selectionForeground": "white"
     },
     "Plugins": {
-      "background": "backgroundLight",
+      "background": "backgroundDarker",
       "disabledForeground": "greyDark",
       "eapTagBackground": "fadedPink",
       "lightSelectionBackground": "fadedPink",
       "paidTagBackground": "fadedPink",
-      "selectionBackground": "fadedPink",
-      "tagForeground": "primaryPurple",
+      "selectionBackground": "#7c6799",
+      "tagForeground": "white",
       "tagBackground": "fadedPink",
       "trialTagBackground": "fadedPink",
+      "hoverBackground": "fadedPink",
       "Button": {
         "installBackground": "backgroundDark",
         "installBorderColor": "backgroundDark",
-        "installForeground": "textGrey",
+        "installForeground": "textLight",
         "installFocusedBackground": "fadedPink",
         "installFillForeground": "greyDark",
         "installFillBackground": "backgroundDark",
         "updateBackground": "backgroundDark",
         "updateBorderColor": "backgroundDark",
-        "updateForeground": "textGrey"
+        "updateForeground": "textLight"
       },
       "SearchField": {
         "background": "backgroundLight",
@@ -467,11 +470,11 @@
       },
       "SectionHeader": {
         "background": "backgroundDark",
-        "foreground": "textGrey"
+        "foreground": "textLight"
       },
       "Tab": {
         "hoverBackground": "fadedPink",
-        "selectedForeground": "primaryPurple",
+        "selectedForeground": "white",
         "selectedBackground": "fadedPink"
       }
     },
@@ -479,7 +482,7 @@
       "Advertiser": {
         "background": "backgroundLight",
         "borderColor": "backgroundLight",
-        "foreground": "primaryPurple"
+        "foreground": "white"
       },
       "borderColor": "backgroundLight",
       "inactiveBorderColor": "backgroundLight",
@@ -489,38 +492,37 @@
         "inactiveBackground": "fadedPink"
       },
       "paintBorder": true,
-      "separatorForeground": "textGrey",
+      "separatorForeground": "textLight",
       "separatorColor": "backgroundDark",
       "Toolbar": {
-        "Floating.background": "fadedPink",
-        "background": "fadedPink",
-        "borderColor": "backgroundLight"
+        "background": "backgroundDarker",
+        "borderColor": "backgroundDarker"
       }
     },
     "PopupMenu": {
       "background": "backgroundLight",
       "border": "2,0,2,0",
-      "foreground": "textGrey",
+      "foreground": "textLight",
       "translucentBackground": "backgroundLight"
     },
     "PopupMenuSeparator.height": 10,
     "PopupMenuSeparator.stripeIndent": 5,
     "ProgressBar": {
       "background": "backgroundLight",
-      "foreground": "primaryPurple",
-      "indeterminateEndColor": "primaryPurple",
-      "indeterminateStartColor": "primaryPurple",
-      "progressColor": "primaryPurple",
-      "selectionBackground": "fadedPink",
+      "foreground": "white",
+      "indeterminateEndColor": "white",
+      "indeterminateStartColor": "white",
+      "progressColor": "white",
+      "selectionBackground": "#7c6799",
       "trackColor": "fadedPink"
     },
     "PsiViewer": {
-      "referenceHighlightColor": "primaryPurple"
+      "referenceHighlightColor": "white"
     },
     "RadioButton": {
-      "background": "backgroundLight",
+      "background": "backgroundDarker",
       "disabledText": "greyDark",
-      "foreground": "textGrey"
+      "foreground": "textLight"
     },
     "RadioButtonMenuItem": {
       "acceleratorForeground": "greyDark",
@@ -528,9 +530,9 @@
       "background": "backgroundLight",
       "disabledBackground": "backgroundLight",
       "disabledForeground": "greyDark",
-      "foreground": "textGrey",
-      "selectionBackground": "fadedPink",
-      "selectionForeground": "primaryPurple"
+      "foreground": "textLight",
+      "selectionBackground": "#7c6799",
+      "selectionForeground": "white"
     },
     "ScrollBar": {
       "background": "backgroundLight",
@@ -584,8 +586,8 @@
         "infoForeground": "greyDark"
       },
       "Tab": {
-        "active.foreground": "primaryPurple",
-        "selectedForeground": "primaryPurple",
+        "active.foreground": "white",
+        "selectedForeground": "white",
         "selectedBackground": "fadedPink"
       }
     },
@@ -604,26 +606,26 @@
     },
     "Slider": {
       "background": "backgroundLight",
-      "buttonBorderColor": "primaryPurple",
-      "buttonColor": "primaryPurple",
-      "foreground": "textGrey",
+      "buttonBorderColor": "white",
+      "buttonColor": "white",
+      "foreground": "textLight",
       "majorTickLength": 6,
       "tickColor": "backgroundDark",
       "trackColor": "fadedPink",
       "trackWidth": 7,
-      "thumb": "primaryPurple"
+      "thumb": "white"
     },
     "SpeedSearch": {
       "background": "fadedPink",
       "borderColor": "backgroundLight",
-      "foreground": "textGrey",
-      "errorForeground": "textGrey"
+      "foreground": "textLight",
+      "errorForeground": "textLight"
     },
     "Spinner": {
       "background": "backgroundLight",
       "border": "3,3,3,3",
-      "foreground": "textGrey",
-      "selectionForeground": "primaryPurple"
+      "foreground": "textLight",
+      "selectionForeground": "white"
     },
     "SplitPane": {
       "background": "backgroundLight",
@@ -631,11 +633,11 @@
     },
     "SplitPaneDivider.draggingColor": "backgroundDark",
     "StatusBar": {
-      "borderColor": "backgroundLight"
+      "borderColor": "backgroundDarker"
     },
     "TabbedPane": {
-      "background": "backgroundLight",
-      "contentAreaColor": "fadedPink",
+      "background": "backgroundDarker",
+      "contentAreaColor": "backgroundDarker",
       "contentBorderInsets": "3,1,1,1",
       "darkShadow": "grey",
       "disabledForeground": "greyDark",
@@ -643,39 +645,39 @@
       "focus": "fadedPink",
       "focusColor": "fadedPink",
       "fontSizeOffset": 0,
-      "foreground": "textGrey",
+      "foreground": "textLight",
       "highlight": "grey",
       "hoverColor": "fadedPink",
       "labelShift": 0,
-      "selectedForeground": "primaryPurple",
+      "selectedForeground": "white",
       "selectedLabelShift": 0,
       "selectedTabPadInsets": "0,0,0,0",
       "tabsOverlapBorder": true,
       "tabHeight": 32,
       "tabInsets": "5,10,5,10",
       "tabSelectionHeight": 2,
-      "underlineColor": "primaryPurple"
+      "underlineColor": "white"
     },
     "TabbedPane.mt.tab.background": "backgroundLight",
     "Table": {
       "background": "backgroundLight",
       "cellNoFocusBorder": "10,5,10,5",
       "focusCellHighlightBorder": "10,5,10,5",
-      "dropLineColor": "primaryPurple",
-      "dropLineShortColor": "primaryPurple",
+      "dropLineColor": "white",
+      "dropLineShortColor": "white",
       "focusCellBackground": "fadedPink",
-      "focusCellForeground": "primaryPurple",
-      "foreground": "textGrey",
+      "focusCellForeground": "white",
+      "foreground": "textLight",
       "gridColor": "backgroundLight",
       "highlightOuter": "fadedPink",
-      "lightSelectionForeground": "primaryPurple",
+      "lightSelectionForeground": "white",
       "lightSelectionInactiveForeground": "greyDark",
       "lightSelectionInactiveBackground": "backgroundDark",
-      "selectionBackground": "fadedPink",
-      "selectionForeground": "primaryPurple",
+      "selectionBackground": "#7c6799",
+      "selectionForeground": "white",
       "selectionInactiveBackground": "fadedPink",
-      "selectionInactiveForeground": "primaryPurple",
-      "sortIconColor": "textGrey",
+      "selectionInactiveForeground": "white",
+      "sortIconColor": "textLight",
       "stripeColor": "fadedPink"
     },
     "TableHeader": {
@@ -684,9 +686,9 @@
       "bottomSeparatorColor": "backgroundDark",
       "cellBorder": "4,0,4,0",
       "disabledForeground": "greyDark",
-      "foreground": "textGrey",
+      "foreground": "textLight",
       "focusCellBackground": "fadedPink",
-      "focusCellForeground": "primaryPurple",
+      "focusCellForeground": "white",
       "height": 25,
       "separatorColor": "backgroundDark"
     },
@@ -695,27 +697,27 @@
     "textText": "greyDark",
     "TextArea": {
       "background": "backgroundLight",
-      "caretForeground": "primaryPurple",
-      "foreground": "textGrey",
+      "caretForeground": "white",
+      "foreground": "textLight",
       "inactiveForeground": "greyDark",
-      "selectionBackground": "fadedPink",
-      "selectionForeground": "primaryPurple"
+      "selectionBackground": "#7c6799",
+      "selectionForeground": "white"
     },
     "TextField": {
       "background": "backgroundLight",
-      "caretForeground": "primaryPurple",
-      "foreground": "textGrey",
+      "caretForeground": "white",
+      "foreground": "textLight",
       "inactiveForeground": "greyDark",
-      "selectionBackground": "fadedPink",
-      "selectionForeground": "primaryPurple"
+      "selectionBackground": "#7c6799",
+      "selectionForeground": "white"
     },
     "TextPane": {
       "background": "backgroundLight",
-      "caretForeground": "primaryPurple",
-      "foreground": "textGrey",
+      "caretForeground": "white",
+      "foreground": "textLight",
       "inactiveForeground": "greyDark",
-      "selectionBackground": "fadedPink",
-      "selectionForeground": "primaryPurple"
+      "selectionBackground": "#7c6799",
+      "selectionForeground": "white"
     },
     "TitlePane": {
       "background": "fadedPink",
@@ -724,29 +726,29 @@
       "infoForeground": "greyDark",
       "inactiveInfoForeground": "greyDark"
     },
-    "TitledBorder.titleColor": "textGrey",
+    "TitledBorder.titleColor": "textLight",
     "ToggleButton": {
       "borderColor": "backgroundLight",
-      "buttonColor": "textGrey",
+      "buttonColor": "textLight",
       "disabledText": "greyDark",
-      "foreground": "textGrey",
+      "foreground": "textLight",
       "offForeground": "backgroundLight",
       "offBackground": "backgroundLight",
-      "onBackground": "fadedPink",
-      "onForeground": "primaryPurple"
+      "onBackground": "lilac",
+      "onForeground": "white"
     },
     "ToolBar": {
-      "background": "backgroundLight",
+      "background": "backgroundDarker",
       "borderHandleColor": "greyDark",
       "floatingForeground": "greyDark",
-      "foreground": "textGrey"
+      "foreground": "textLight"
     },
     "ToolTip": {
       "Actions.background": "backgroundLight",
       "Actions.infoForeground": "greyDark",
       "background": "backgroundLight",
       "borderColor": "backgroundLight",
-      "foreground": "textGrey",
+      "foreground": "textLight",
       "infoForeground": "greyDark",
       "separatorColor": "grey",
       "shortcutForeground": "greyDark"
@@ -754,7 +756,7 @@
     "ToolWindow": {
       "Button": {
         "hoverBackground": "fadedPink",
-        "selectedForeground": "primaryPurple",
+        "selectedForeground": "white",
         "selectedBackground": "fadedPink"
       },
       "Header": {
@@ -768,51 +770,51 @@
       "HeaderTab": {
         "hoverBackground": "fadedPink",
         "hoverInactiveBackground": "backgroundDark",
-        "inactiveUnderlineColor": "primaryPurple",
+        "inactiveUnderlineColor": "lilac",
         "selectedBackground": "fadedPink",
-        "selectedInactiveBackground": "fadedPink",
-        "underlineColor": "primaryPurple",
+        "selectedInactiveBackground": "backgroundLight",
+        "underlineColor": "lilac",
         "underlinedTabBackground": "fadedPink",
-        "underlinedTabInactiveBackground": "backgroundDark"
+        "underlinedTabInactiveBackground": "backgroundLight"
       }
     },
     "Tree": {
       "background": "backgroundDark",
-      "foreground": "textBlack",
+      "foreground": "textDark",
       "hash": "grey",
-      "modifiedItemForeground": "primaryPurple",
+      "modifiedItemForeground": "white",
       "selectionBackground": "fadedPinkDark",
-      "selectionForeground": "primaryPurple",
-      "selectionInactiveForeground": "primaryPurple",
+      "selectionForeground": "white",
+      "selectionInactiveForeground": "white",
       "selectionInactiveBackground": "fadedPinkDark",
       "textBackground": "backgroundLight"
     },
     "UiDesigner": {
       "Activity.borderColor": "grey",
       "ColorPicker.background": "backgroundLight",
-      "ColorPicker.foreground": "textGrey",
+      "ColorPicker.foreground": "textLight",
       "Component.borderColor": "grey",
       "Component.background": "backgroundLight",
-      "Component.foreground": "textGrey",
+      "Component.foreground": "textLight",
       "Connector.borderColor": "grey",
       "Connector.hoverBorderColor": "fadedPink",
       "Canvas.background": "fadedPink",
-      "highStroke.foreground": "textGrey",
+      "highStroke.foreground": "textLight",
       "Label.foreground": "greyDark",
       "List.selectionBackground": "fadedPinkDark",
       "Panel.borderColor": "grey",
       "Panel.background": "backgroundLight",
-      "percent.foreground": "textGrey",
+      "percent.foreground": "textLight",
       "Placeholder.background": "backgroundLight",
       "Placeholder.borderColor": "grey",
-      "Placeholder.foreground": "textGrey",
-      "Placeholder.selectedForeground": "primaryPurple",
+      "Placeholder.foreground": "textLight",
+      "Placeholder.selectedForeground": "white",
       "Preview.background": "backgroundLight",
       "stroke.acceleratorForeground": "greyDark"
     },
     "ValidationTooltip": {
       "errorBackground": "fadedPink",
-      "errorBorderColor": "fadedPink",
+      "errorBorderColor": "fadedRed",
       "warningBackground": "fadedPink",
       "warningBorderColor": "fadedPink"
     },
@@ -824,14 +826,14 @@
         "graphColor": "fadedPink"
       },
       "GitLog": {
-        "localBranchIconColor": "primaryPurple",
+        "localBranchIconColor": "white",
         "otherIconColor": "greyDark",
-        "remoteBranchIconColor": "textGrey",
+        "remoteBranchIconColor": "textLight",
         "tagIconColor": "greyDark"
       },
       "HgLog": {
-        "branchIconColor": "primaryPurple",
-        "bookmarkIconColor": "primaryPurple",
+        "branchIconColor": "white",
+        "bookmarkIconColor": "white",
         "closedBranchIconColor": "greyDark",
         "localTagIconColor": "greyDark",
         "mqTagIconColor": "greyDark",
@@ -843,52 +845,55 @@
         "Commit.currentBranchBackground": "backgroundDark"
       },
       "RefLabel": {
-        "foreground": "primaryPurple",
+        "foreground": "white",
         "backgroundBase": "fadedPink"
       }
     },
     "Viewport": {
       "background": "backgroundLight",
-      "foreground": "textGrey"
+      "foreground": "textLight"
     },
     "WelcomeScreen": {
       "background": "backgroundLight",
       "borderColor": "backgroundLight",
       "captionBackground": "fadedPink",
-      "captionForeground": "textGrey",
+      "captionForeground": "textLight",
       "footerBackground": "fadedPink",
-      "footerForeground": "textGrey",
+      "footerForeground": "textLight",
       "headerBackground": "backgroundLight",
-      "headerForeground": "textGrey",
-      "separatorColor": "grey",
+      "headerForeground": "textLight",
+      "separatorColor": "backgroundDark",
       "Projects": {
         "background": "backgroundDark",
-        "selectionBackground": "fadedPink",
+        "selectionBackground": "#7c6799",
         "selectionInactiveBackground": "backgroundDark"
       }
     },
-    "window": "backgroundLight",
-    "windowBorder": "backgroundLight",
-    "windowText": "greyDark",
-    "Window.border": "backgroundLight"
+    "window": "backgroundDarker",
+    "windowBorder": "backgroundDarker",
+    "windowText": "textLight",
+    "Window.border": "backgroundDarker",
+    "ToolWindow.Header.borderColor": "backgroundDarker",
+    "ToolBar.borderHandleColor": "backgroundDarker",
+    "NavBar.borderColor": "backgroundDarker"
   },
   "icons": {
     "ColorPalette": {
       "#43494A": "fadedPink",
       "#6B6B6B": "greyDark",
       "#A7A7A7": "backgroundLight",
-      "#3D6185": "primaryPurple",
-      "#466D94": "primaryPurple",
+      "#3D6185": "white",
+      "#466D94": "white",
       "#3C3F41": "backgroundLight",
       "#545556": "greyDark",
       "#606060": "greyDark",
-      "#9AA7B0": "textGrey",
-      "#675133": "primaryPurple",
-      "Actions.Blue": "#82aaff",
-      "Actions.Green": "#50ad39",
+      "#9AA7B0": "textLight",
+      "#675133": "white",
+      "Actions.Blue": "#4296c9",
+      "Actions.Green": "#BAA8FF",
       "Actions.Grey": "greyDark",
       "Actions.GreyInline": "greyDark",
-      "Actions.GreyInline.Dark": "textGrey",
+      "Actions.GreyInline.Dark": "textLight",
       "Actions.Red": "fadedRed",
       "Actions.Yellow": "yellow",
       "Checkbox.Background.Default": "fadedPink",
@@ -899,31 +904,31 @@
       "Checkbox.Border.Default.Dark": "grey",
       "Checkbox.Border.Disabled": "greyDark",
       "Checkbox.Border.Disabled.Dark": "greyDark",
-      "Checkbox.Focus.Thin.Default": "primaryPurple",
-      "Checkbox.Focus.Thin.Default.Dark": "primaryPurple",
-      "Checkbox.Focus.Wide": "primaryPurple",
-      "Checkbox.Focus.Wide.Dark": "primaryPurple",
+      "Checkbox.Focus.Thin.Default": "white",
+      "Checkbox.Focus.Thin.Default.Dark": "white",
+      "Checkbox.Focus.Wide": "white",
+      "Checkbox.Focus.Wide.Dark": "white",
       "Checkbox.Foreground.Disabled": "greyDark",
       "Checkbox.Foreground.Disabled.Dark": "greyDark",
-      "Checkbox.Background.Selected": "primaryPurple",
+      "Checkbox.Background.Selected": "white",
       "Checkbox.Background.Selected.Dark": "backgroundLight",
-      "Checkbox.Border.Selected": "primaryPurple",
-      "Checkbox.Border.Selected.Dark": "primaryPurple",
-      "Checkbox.Foreground.Selected": "primaryPurple",
-      "Checkbox.Foreground.Selected.Dark": "primaryPurple",
-      "Checkbox.Focus.Thin.Selected": "textGrey",
-      "Checkbox.Focus.Thin.Selected.Dark": "textGrey",
+      "Checkbox.Border.Selected": "white",
+      "Checkbox.Border.Selected.Dark": "white",
+      "Checkbox.Foreground.Selected": "white",
+      "Checkbox.Foreground.Selected.Dark": "white",
+      "Checkbox.Focus.Thin.Selected": "textLight",
+      "Checkbox.Focus.Thin.Selected.Dark": "textLight",
       "Objects.Grey": "greyDark",
-      "Objects.Blue": "#82aaff",
+      "Objects.Blue": "#4296c9",
       "Objects.RedStatus": "fadedRed",
       "Objects.Red": "fadedRed",
-      "Objects.Pink": "#c792ea",
+      "Objects.Pink": "pink",
       "Objects.Yellow": "yellow",
-      "Objects.Green": "#50ad39",
+      "Objects.Green": "#BAA8FF",
       "Objects.Purple": "#790e8b",
-      "Objects.BlackText": "textGrey",
+      "Objects.BlackText": "textLight",
       "Objects.YellowDark": "#f78c6c",
-      "Objects.GreenAndroid": "#50ad39"
+      "Objects.GreenAndroid": "#BAA8FF"
     }
   }
 }

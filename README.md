@@ -1,8 +1,8 @@
-# Tranquil Light theme
+# Fairyfloss theme
 
-![Build](https://github.com/lankydan/tranquil-light-intellij-theme/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/16159-tranquil-light-theme.svg)](https://plugins.jetbrains.com/plugin/16159-tranquil-light-theme)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/16159-tranquil-light-theme.svg)](https://img.shields.io/jetbrains/plugin/d/16159-tranquil-light-theme)
+![Build](https://github.com/lankydan/fairyfloss-intellij-theme/workflows/Build/badge.svg)
+[![Version](https://img.shields.io/jetbrains/plugin/v/16159-fairyfloss-theme.svg)](https://plugins.jetbrains.com/plugin/16159-fairyfloss-theme)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/16159-fairyfloss-theme.svg)](https://img.shields.io/jetbrains/plugin/d/16159-fairyfloss-theme)
 
 <!-- Plugin description -->
 This theme is dimmer and easier on the eyes than the default Intellij themes as well as other light themes that I have come across. The inspiration for this theme codes from the Quiet Light theme bundled in Visual studio code, you might notice that the background colours are the same.
@@ -17,7 +17,7 @@ This theme is dimmer and easier on the eyes than the default Intellij themes as 
   
 - Manually:
 
-  Download the [latest release](https://github.com/lankydan/tranquil-light-intellij-theme/releases/latest) and install it manually using
+  Download the [latest release](https://github.com/lankydan/fairyfloss-intellij-theme/releases/latest) and install it manually using
   <kbd>Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
 
 

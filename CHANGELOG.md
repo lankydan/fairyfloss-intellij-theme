@@ -1,6 +1,6 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
-# Tranquil Light theme Changelog
+# Fairyfloss theme Changelog
 
 ## [Unreleased]
 ### Added
