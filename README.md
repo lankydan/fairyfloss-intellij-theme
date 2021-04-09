@@ -6,6 +6,9 @@
 
 <!-- Plugin description -->
 This theme is based on the existing [Fairyfloss](https://sailorhg.github.io/fairyfloss/) theme.
+
+![Screenshot of Fairyfloss theme](./images/screenshot-1.png)
+![Screenshot of Fairyfloss theme](./images/screenshot-2.png)
 <!-- Plugin description end -->
 
 ## Installation
