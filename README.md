@@ -7,8 +7,11 @@
 <!-- Plugin description -->
 This theme is based on the existing [Fairyfloss](https://sailorhg.github.io/fairyfloss/) theme.
 
-![Screenshot of Fairyfloss theme](https://raw.githubusercontent.com/lankydan/fairyfloss-intellij-theme/main/images/screenshot-1.png)
-![Screenshot of Fairyfloss theme](https://raw.githubusercontent.com/lankydan/fairyfloss-intellij-theme/main/images/screenshot-2.png)
+<img src="https://raw.githubusercontent.com/lankydan/fairyfloss-intellij-theme/main/images/screenshot-1.png" alt="Screenshot of Fairyfloss theme" width="600">
+
+---
+
+<img src="https://raw.githubusercontent.com/lankydan/fairyfloss-intellij-theme/main/images/screenshot-2.png" alt="Screenshot of Fairyfloss theme" width="600">
 <!-- Plugin description end -->
 
 ## Installation
