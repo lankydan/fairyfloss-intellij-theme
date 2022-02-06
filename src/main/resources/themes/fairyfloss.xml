@@ -130,6 +130,7 @@
     <option name="WHITESPACES" value="4e5579" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="4e5579" />
     <option name="YELLOW" value="daaa01" />
+    <option name="LOOKUP_COLOR" value="5A5475" />
   </colors>
   <attributes>
     <option name="ANGLE_BRACKETS_RAINBOW_COLOR0">
@@ -772,6 +773,11 @@
         <option name="EFFECT_COLOR" value="e66363" />
         <option name="ERROR_STRIPE_COLOR" value="e66363" />
         <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="EVALUATED_EXPRESSION_EXECUTION_LINE_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="e5e5e5" />
       </value>
     </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
@@ -3776,11 +3782,6 @@
       <value>
         <option name="FOREGROUND" value="a7dbd8" />
         <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="EVALUATED_EXPRESSION_EXECUTION_LINE_ATTRIBUTES">
-      <value>
-        <option name="BACKGROUND" value="e5e5e5" />
       </value>
     </option>
   </attributes>
