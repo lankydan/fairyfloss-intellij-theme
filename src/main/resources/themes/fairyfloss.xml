@@ -57,6 +57,7 @@
     <option name="LINE_NUMBERS_COLOR" value="f8f8f2" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="828ed5" />
     <option name="LINK_COLOR" value="6cb6e7" />
+    <option name="LOOKUP_COLOR" value="5a5475" />
     <option name="MATCHED_BRACKET" value="ffea00" />
     <option name="METHOD_SEPARATORS_COLOR" value="828ed5" />
     <option name="MODIFIED_LINES_COLOR" value="4296c9" />
@@ -130,7 +131,6 @@
     <option name="WHITESPACES" value="4e5579" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="4e5579" />
     <option name="YELLOW" value="daaa01" />
-    <option name="LOOKUP_COLOR" value="5A5475" />
   </colors>
   <attributes>
     <option name="ANGLE_BRACKETS_RAINBOW_COLOR0">
@@ -243,7 +243,7 @@
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="8d525270" />
+        <option name="BACKGROUND" value="624568" />
       </value>
     </option>
     <option name="BROWSEWORDATCARET">
@@ -475,13 +475,13 @@
     <option name="DEBUGGER_SMART_STEP_INTO_SELECTION">
       <value>
         <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="ad5877" />
+        <option name="BACKGROUND" value="78344f" />
       </value>
     </option>
     <option name="DEBUGGER_SMART_STEP_INTO_TARGET">
       <value>
         <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="ad5877" />
+        <option name="BACKGROUND" value="78344f" />
       </value>
     </option>
     <option name="DEFAULT_ATTRIBUTE">
@@ -782,7 +782,7 @@
     </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="ad5877" />
+        <option name="BACKGROUND" value="743c52" />
       </value>
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
@@ -1229,6 +1229,11 @@
       <value>
         <option name="FOREGROUND" value="ffffff" />
         <option name="BACKGROUND" value="9373a5" />
+      </value>
+    </option>
+    <option name="INLINE_STACK_FRAMES">
+      <value>
+        <option name="BACKGROUND" value="613a63" />
       </value>
     </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES">
@@ -2775,7 +2780,7 @@
     </option>
     <option name="NOT_TOP_FRAME_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="e5e5e5" />
+        <option name="BACKGROUND" value="613a63" />
       </value>
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
@@ -3615,6 +3620,12 @@
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="bd92ea" />
+      </value>
+    </option>
+    <option name="TERMINAL_COMMAND_TO_RUN_USING_IDE">
+      <value>
+        <option name="FOREGROUND" value="0" />
+        <option name="BACKGROUND" value="baa8ff" />
       </value>
     </option>
     <option name="TEXT">
