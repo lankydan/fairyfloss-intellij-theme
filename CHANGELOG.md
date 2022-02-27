@@ -2,7 +2,7 @@
 
 # Fairyfloss theme Changelog
 
-## [0.0.3]
+## [Unreleased]
 ### Added
 
 ### Changed
@@ -15,8 +15,21 @@
 
 ### Security
 
-## [0.0.2]
+## [0.0.4]
 ### Added
+- Initial version released.
+
+### Changed
+
+### Deprecated
+
+### Removed
+
+### Fixed
+
+### Security
+
+## [0.0.2]
 
 ## [Unreleased]
 ### Added
