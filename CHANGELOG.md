@@ -15,9 +15,8 @@
 
 ### Security
 
-## [0.0.5]
+## [0.0.6]
 ### Added
-- Initial version released.
 
 ### Changed
 
@@ -28,6 +27,10 @@
 ### Fixed
 
 ### Security
+
+## [0.0.5]
+### Added
+- Initial version released.
 
 ## [0.0.4]
 ### Added
